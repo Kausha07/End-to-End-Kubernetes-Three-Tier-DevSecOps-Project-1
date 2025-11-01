@@ -19,7 +19,7 @@ pipeline {
         }
         stage('Git Pulling') {
             steps {
-                git branch: 'main', url: 'https://github.com/KaushalRaithatha/End-to-End-Kubernetes-Three-Tier-DevSecOps-Project-1.git'
+                git branch: 'main', url: 'https://github.com/Kausha07/End-to-End-Kubernetes-Three-Tier-DevSecOps-Project-1.git'
             }
         }
         stage('Init') {
